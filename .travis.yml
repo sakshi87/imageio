@@ -31,6 +31,11 @@ matrix:
       env: TEST_UNIT=1
     # The main tests run on Linux for a all relevant Python versions.
     - os: linux
+      arch: amd64
+      python: "3.5"
+      env: TEST_UNIT=1 TEST_INSTALL=0
+    - os: linux
+      arch: arm64
       python: "3.5"
       env: TEST_UNIT=1 TEST_INSTALL=0
     # NOTE -------------------------/\ turned off for now
