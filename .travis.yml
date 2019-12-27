@@ -6,6 +6,7 @@ addons:
   apt:
     packages:
     - libfreeimage3
+    - ffmpeg
 
 # Only run travis build on push for master branch
 branches:
