@@ -7,7 +7,6 @@ addons:
     packages:
     - libfreeimage3
     - ffmpeg
-    - libavbin-dev
 
 # Only run travis build on push for master branch
 branches:
