@@ -61,7 +61,8 @@ matrix:
 
 before_install:
     - sudo wget https://github.com/downloads/AVbin/AVbin/install-avbin-linux-x86-64-v10
-    - sudo sh ./install-avbin-linux-x86-64-v10 -y
+    - sudo sh ./install-avbin-linux-x86-64-v10
+    - y
     - REDIRECT_TO=/dev/stdout  # change to /dev/null to silence Travis
     - SRC_DIR=$(pwd)
     # file size checks
